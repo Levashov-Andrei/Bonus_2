@@ -1,0 +1,7 @@
+
+out/
+.vscode/
+.DS_Store
+*.iml
+.idea/
+Bonus 2.iml
