@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 300; // Текущий остаток на счете
+        int remains = 300; // Текущий остаток на счете
 
-        int y = 1000; // Сумма пополнения
+        int replenishment = 1050; // Сумма пополнения
 
         int percent;
-        if (y >= 1000) {
-            percent = y / 100;
+        if (replenishment >= 1000) {
+            percent = replenishment / 100;
         } else {
             percent = 0;
         }
 
-        int bonus = (y + percent + x);
+        int bonus = (replenishment + percent + remains);
 
         System.out.printf(" Баланс на счете " + bonus);
         System.out.println();
